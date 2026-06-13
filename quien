@@ -605,15 +605,11 @@
           <a class="TituloBrand" href="#"> Reyna Flores </a>
 
           <div class="navbar-nav">
-            <a class="TitulosNav" href="#"> Inicio </a>
-
-            <a class="TitulosNav" href="#sobreMi"> Sobre mí </a>
-
-            <a class="TitulosNav" href="#habilidades"> Habilidades </a>
-
-            <a class="TitulosNav" href="#proyectos"> Proyectos </a>
-
-            <a class="TitulosNav" href="#contacto"> Contacto </a>
+            <a class="TitulosNav" href="#"> Accueil </a>
+<a class="TitulosNav" href="#sobreMi"> À propos </a>
+<a class="TitulosNav" href="#habilidades"> Compétences </a>
+<a class="TitulosNav" href="#proyectos"> Projets </a>
+<a class="TitulosNav" href="#contacto"> Contact </a>
           </div>
         </div>
       </nav>
@@ -647,15 +643,17 @@
 
         <div class="w-75 d-flex pt-4 py-5 mb-5">
           <div class="w-50">
-            <h1 class="TituloQuienSoy">Hola, soy</h1>
-            <h1 class="TituloQuienSoy">Reyna Flores <i class="bi bi-code-slash"></i></h1>
-            <h2 class="SubTitulosQuienSoy text-start">Full stack Developer</h2>
-            <p class="ParrafoQuienSoy text-start pe-5">
-              Desarrolladora a tiempo completo, experta en el uso de diferentes
-              tecnologías y gran apasionada de la programación.
-            </p>
+           <h1 class="TituloQuienSoy">Bonjour, je suis</h1>
+<h1 class="TituloQuienSoy">Reyna Flores <i class="bi bi-code-slash"></i></h1>
+<h2 class="SubTitulosQuienSoy text-start">Marketing digital · Data · Automatisation</h2>
+<p class="ParrafoQuienSoy text-start pe-5">
+  Profil en reconversion vers le marketing digital, avec une expérience en relation client,
+  gestion de contenu, logistique culturelle et projets créatifs. Actuellement en formation
+  AI & Data-Driven Marketing, je recherche une alternance en acquisition, SEO, analytics
+  ou marketing automation.
+</p>
 
-            <a href="#contacto">
+            <a href="#Me contacter">
               <button
                 type="button"
                 name="button"
