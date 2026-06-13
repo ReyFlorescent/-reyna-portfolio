@@ -3,18 +3,24 @@
 :root{
 
   /* Colores */
-  --color-fondo: hsl(207, 40%, 8%);
-  --color-titulos: #e5e5e5 ;
-  --color-subtitulos:  #c6c5c6;
+
+  --color-fondo: #F7F1E8;
+
+  --color-titulos: #2F2923;
+
+  --color-subtitulos: #6F6258;
 
   /* Fuentes */
+
   --fuente-titulos: 'Poppins', sans-serif;
 
   /* Paneles */
-  --color-panel:  #100020 ;
+
+  --color-panel: #FFFDF8;
 
   /* Color principal */
-  --color-principal:  #c267fd ;
+
+  --color-principal: #B8755A;
 
 }
 
