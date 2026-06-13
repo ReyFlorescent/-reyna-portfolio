@@ -113,3 +113,18 @@ i {
 .icono_contacto_lin:hover{
   color: #5F1013;
 }
+.hero-photo-card{
+  width: 360px;
+  height: 260px;
+  border-radius: 28px;
+  overflow: hidden;
+  background-color: var(--color-panel);
+  border: 1px solid rgba(122, 23, 25, 0.15);
+}
+
+.hero-photo-card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
