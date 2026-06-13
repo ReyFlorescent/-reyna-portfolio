@@ -1,17 +1,17 @@
 .circuloPerfil{
-  background-image:linear-gradient( to bottom, #9e36e1 ,var(--color-fondo));
+  background-image: linear-gradient(to bottom, var(--color-principal), var(--color-fondo));
   height: 100%;
-  width:105px;
+  width: 105px;
 }
 
 .circuloPerfilGrande{
-  background-image:linear-gradient( to bottom, #9e36e1 ,var(--color-fondo));
-  width:265px;
+  background-image: linear-gradient(to bottom, var(--color-principal), var(--color-fondo));
+  width: 265px;
   height: auto;
 }
 
 .Nombre{
-  color:  var(--color-titulos);
+  color: var(--color-titulos);
   height: auto;
   font-family: var(--fuente-titulos);
   font-weight: 600;
@@ -20,7 +20,7 @@
 .Trabajo{
   color: var(--color-subtitulos);
   font-size: 0.80rem;
-  font-family: var(--fuente-titulos);
+  font-family: var(--fuente-texto);
   margin-top: -0.60rem;
 }
 
@@ -28,12 +28,19 @@
   background-color: var(--color-panel);
 }
 
+/* Iconos generales */
 i {
-  color: white;
+  color: var(--color-principal);
 }
 
+/* Barra superior */
+.barra-mobiles{
+  background-color: var(--color-principal);
+}
+
+/* Nombre en la barra superior */
 .TituloBrand{
-  color: var(--color-titulos);
+  color: #F8F4EC;
   font-size: 20px;
   font-family: var(--fuente-titulos);
   text-decoration: none;
@@ -42,13 +49,14 @@ i {
 }
 
 .TituloBrand:hover{
-  color:#9e36e1;
+  color: #EDE8DF;
 }
 
+/* Links del menú superior */
 .TitulosNav {
-  color: var(--color-subtitulos);
+  color: #F8F4EC;
   font-size: 16px;
-  font-family: var(--fuente-titulos);
+  font-family: var(--fuente-texto);
   margin: 0px 10px;
   text-decoration: none;  
   transition-property: color;
@@ -56,5 +64,52 @@ i {
 }
 
 .TitulosNav:hover{
-  color:#9e36e1;
+  color: #E6C9BE;
+}
+
+/* Botones principales */
+.btn-primary{
+  background-color: var(--color-principal);
+  border-color: var(--color-principal);
+  color: #F8F4EC;
+}
+
+.btn-primary:hover{
+  background-color: #5F1013;
+  border-color: #5F1013;
+  color: #F8F4EC;
+}
+
+/* Iconos dentro de botones */
+.btn-primary i{
+  color: #F8F4EC;
+}
+
+/* Botones outline */
+.btn-outline-primary{
+  color: var(--color-principal);
+  border-color: var(--color-principal);
+}
+
+.btn-outline-primary:hover{
+  background-color: var(--color-principal);
+  border-color: var(--color-principal);
+  color: #F8F4EC;
+}
+
+.btn-outline-primary:hover i{
+  color: #F8F4EC;
+}
+
+/* Iconos de contacto laterales */
+.icono_contacto,
+.icono_contacto_tel,
+.icono_contacto_lin{
+  color: var(--color-principal);
+}
+
+.icono_contacto:hover,
+.icono_contacto_tel:hover,
+.icono_contacto_lin:hover{
+  color: #5F1013;
 }
