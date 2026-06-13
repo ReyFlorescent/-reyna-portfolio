@@ -1,17 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap");
+
 :root{
 
   /* Colores */
-  --color-fondo: #F3F1EA;
+  --color-fondo: #EDE8DF;
   --color-titulos: #3F3A36;
-  --color-subtitulos: #6E6862;
+  --color-subtitulos: #6A625B;
 
   /* Fuentes */
-  --fuente-titulos: 'Cormorant Garamond', serif;
+  --fuente-titulos: 'Playfair Display', serif;
   --fuente-texto: 'Inter', sans-serif;
 
   /* Paneles */
-  --color-panel: #FAF8F2;
+  --color-panel: #F8F4EC;
 
   /* Color principal */
   --color-principal: #7A1719;
