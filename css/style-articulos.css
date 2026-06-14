@@ -54,10 +54,11 @@
 }
 
 .TituloQuienSoy{
-  color: var(--color-titulos);
+  color: #6B1010;
   font-size: 2.25rem;
   font-family: var(--fuente-titulos);
-  font-weight: 600;
+  font-weight: 900;
+  font-style: italic;
 }
 
 .SubTitulosQuienSoy{

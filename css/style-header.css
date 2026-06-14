@@ -34,8 +34,16 @@ i {
 }
 
 /* Barra superior */
-.barra-mobiles{
-  background-color: var(--color-principal);
+.barra-mobiles {
+  background: linear-gradient(to bottom, #D9D7D0, #C8C5BD);
+  backdrop-filter: blur(8px);
+  color: #000000;
+}
+
+.barra-mobiles a,
+.barra-mobiles .nav-link,
+.barra-mobiles .navbar-brand{
+  color: var(--color-titulos) !important;
 }
 
 /* Nombre en la barra superior */
@@ -137,7 +145,7 @@ i {
 }
 .btn-primary,
 .btn-primary:visited{
-  background-color: #6B1010;
+  background: linear-gradient(to bottom, #8A1A1A, #6B1010);
   border-color: #6B1010;
   color: #F8F4EC;
 }
@@ -145,8 +153,8 @@ i {
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus{
-  background-color: #4F0B0B;
-  border-color: #4F0B0B;
+  background: linear-gradient(to bottom, #A12222, #7A1212);
+  border-color: #6B1010;
   color: #F8F4EC;
   box-shadow: 0 0 0 0.25rem rgba(107, 16, 16, 0.25);
 }
