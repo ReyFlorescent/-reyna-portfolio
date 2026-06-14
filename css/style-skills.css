@@ -47,3 +47,47 @@
 .skills__area {
   padding-inline: 4rem;
 }
+/* Corrección global de botones - color bordeaux */
+body .btn.btn-primary,
+body a .btn.btn-primary{
+  background-color: #6B1010;
+  border-color: #6B1010;
+  color: #F8F4EC;
+}
+
+body .btn.btn-primary:hover,
+body a .btn.btn-primary:hover,
+body .btn.btn-primary:active,
+body a .btn.btn-primary:active,
+body .btn.btn-primary:focus,
+body a .btn.btn-primary:focus{
+  background-color: #4F0B0B;
+  border-color: #4F0B0B;
+  color: #F8F4EC;
+  box-shadow: 0 0 0 0.25rem rgba(107, 16, 16, 0.25);
+}
+
+body .btn.btn-primary i,
+body a .btn.btn-primary i{
+  color: #F8F4EC;
+}
+
+/* Botones outline, si aparecen en móvil */
+body .btn.btn-outline-primary{
+  color: #6B1010;
+  border-color: #6B1010;
+}
+
+body .btn.btn-outline-primary:hover,
+body .btn.btn-outline-primary:active,
+body .btn.btn-outline-primary:focus{
+  background-color: #6B1010;
+  border-color: #6B1010;
+  color: #F8F4EC;
+}
+
+body .btn.btn-outline-primary:hover i,
+body .btn.btn-outline-primary:active i,
+body .btn.btn-outline-primary:focus i{
+  color: #F8F4EC;
+}
