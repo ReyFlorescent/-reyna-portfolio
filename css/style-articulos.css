@@ -1,38 +1,41 @@
 .icono_contacto{
-  color:   #9458e0  ;
+  color: #6B1010;
   transition-duration: 1s;
   transition-property: color;
 }
+
 .icono_contacto:hover{
-  color: white;
+  color: #4F0B0B;
 }
 
 .icono_contacto_tel{
-  color:   #9458e0  ;
+  color: #6B1010;
   transition-duration: 1s;
   transition-property: color;
 }
+
 .icono_contacto_tel:hover{
-  color:    #59c3ff   ;
+  color: #4F0B0B;
 }
 
 .icono_contacto_lin{
-  color:   #9458e0  ;
+  color: #6B1010;
   transition-duration: 1s;
   transition-property: color;
 }
+
 .icono_contacto_lin:hover{
-  color:     #86d3ff    ;
+  color: #4F0B0B;
 }
 
 .barra-mobiles {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #6B1010;
   backdrop-filter: blur(8px);
-
 }
 
 #nav-tab{
-  background-color:  #3a0e56 ;
+  background-color: #F8F4EC;
+  border: 1px solid rgba(107, 16, 16, 0.18);
   border-radius: 16px;
 }
 
@@ -126,12 +129,23 @@
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited  {
-  background-color: #7D0AB3 !important;
-  border-color: #7D0AB3 !important;
+  background-color: #6B1010 !important;
+  border-color: #6B1010 !important;
+  color: #F8F4EC !important;
+}
+
+.btn-primary i{
+  color: #F8F4EC !important;
 }
 
 .btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
-  border-color: #7D0AB3 !important;
+  border-color: #6B1010 !important;
+  color: #6B1010 !important;
+}
+
+.btn-outline-primary:hover{
+  background-color: #6B1010 !important;
+  color: #F8F4EC !important;
 }
 
 /* Varios */
@@ -208,7 +222,8 @@ p {
 }
 
 .contact__content{
-  background-color: #7D28B3;
+  background-color: #F8F4EC;
+  border: 1px solid rgba(107, 16, 16, 0.18);
   border-radius: .5rem;
   backdrop-filter: blur(8px);
   padding: .75rem 1rem .25rem;
