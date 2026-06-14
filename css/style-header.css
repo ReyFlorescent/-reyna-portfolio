@@ -30,7 +30,7 @@
 
 /* Iconos generales */
 i {
-  color: var(--color-principal);
+  color: #6B1010;
 }
 
 /* Barra superior */
@@ -69,15 +69,22 @@ i {
 
 /* Botones principales */
 .btn-primary{
-  background-color: var(--color-principal);
-  border-color: var(--color-principal);
+  background-color: #6B1010;
+  border-color: #6B1010;
   color: #F8F4EC;
 }
 
 .btn-primary:hover{
-  background-color: #5F1013;
-  border-color: #5F1013;
+  background-color: #4F0B0B;
+  border-color: #4F0B0B;
   color: #F8F4EC;
+}
+
+.btn-primary:focus,
+.btn-primary:active{
+  background-color: #4F0B0B;
+  border-color: #4F0B0B;
+  box-shadow: 0 0 0 0.25rem rgba(107, 16, 16, 0.25);
 }
 
 /* Iconos dentro de botones */
@@ -105,13 +112,13 @@ i {
 .icono_contacto,
 .icono_contacto_tel,
 .icono_contacto_lin{
-  color: var(--color-principal);
+  color: #6B1010;
 }
 
 .icono_contacto:hover,
 .icono_contacto_tel:hover,
 .icono_contacto_lin:hover{
-  color: #5F1013;
+  color: #4F0B0B;
 }
 .hero-photo-card{
   width: 390px;
