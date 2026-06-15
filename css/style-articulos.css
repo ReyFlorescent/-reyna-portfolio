@@ -122,13 +122,13 @@
 
 /* Colores de fondo para botones */
 
-.nav-link, .nav-link:focus ,.nav-link:hover{
-  color: white !important;
-  background-color: var(--color-fondo) !important;
+.nav-tabs .nav-link {
+  color: #3F3939 !important;
 }
 
-.nav-link, .nav-link:visited{
-  background-color: transparent !important;
+.nav-tabs .nav-link.active {
+  color: #6B1010 !important;
+  font-weight: 600;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited  {
