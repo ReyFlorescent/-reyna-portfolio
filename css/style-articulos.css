@@ -76,7 +76,8 @@
 }
 
 .proyRemeras{
-  background-image: url("../img/proyectos/proyecto_1.jpg");
+
+  background-image: url("../img/fomo-running.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 15px;
@@ -90,7 +91,8 @@
 }
 
 .proyAutos{
-  background-image: url("../img/proyectos/proyecto_2.jpg");
+
+  background-image: url("../img/la-mexicaine-nails.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 15px;
@@ -193,8 +195,11 @@ p {
   padding-inline: 1rem;
 }
 
-.img-sobreMi-estilo {
-  border-radius: 10px;
+.img-sobreMi-estilo{
+  width: 380px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 18px;
 }
 
 /* Sección Habilidades */
