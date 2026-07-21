@@ -274,3 +274,78 @@ p {
 .button:hover{
   cursor: pointer;
 }
+/* Tarjetas clicables de proyectos */
+.project-card {
+  position: relative;
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 15px;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.project-card-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(55%);
+  transition: transform 0.3s ease;
+}
+
+.project-card-content {
+  position: absolute;
+  z-index: 1;
+  right: 24px;
+  bottom: 24px;
+  left: 24px;
+}
+
+.project-card-type {
+  display: block;
+  margin-bottom: 4px;
+  color: #cfcfcf;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.project-card-title {
+  margin: 0;
+  color: #e8e8e8;
+  font-family: var(--fuente-titulos);
+  font-size: 1.55rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.65);
+}
+
+.project-card:hover .project-card-image {
+  transform: scale(1.03);
+}
+
+.project-card:hover .project-card-title {
+  color: #ffffff;
+}
+
+.project-card:focus-visible {
+  outline: 3px solid var(--color-principal);
+  outline-offset: 3px;
+}
+
+/* Tamaño de las tarjetas en teléfonos */
+@media (max-width: 575.98px) {
+  .project-card {
+    width: 280px;
+  }
+
+  .project-card-title {
+    font-size: 1.35rem;
+  }
+}
