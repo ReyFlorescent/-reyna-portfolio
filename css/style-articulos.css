@@ -311,14 +311,14 @@ p {
 .project-card-type {
   display: block;
   margin-bottom: 4px;
-  color: #cfcfcf;
+  color: #8f2942;
   font-size: 1rem;
   font-weight: 500;
 }
 
 .project-card-title {
   margin: 0;
-  color: #e8e8e8;
+  color: #343434;
   font-family: var(--fuente-titulos);
   font-size: 1.55rem;
   font-weight: 600;
